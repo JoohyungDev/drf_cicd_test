@@ -30,7 +30,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
-						set -e
+	    set -e
             cd /home/ubuntu/app/drf_cicd_test
             git pull origin main
 
